@@ -1,1 +1,7 @@
-node_modules
+.node_modules
+.vscode
+localazy/converter/package-lock.json
+localazy/converter/node_modules
+localazy/en.js
+localazy/downloaded*
+# localazy/localazy.keys.json
