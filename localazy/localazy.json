@@ -1,0 +1,29 @@
+{
+  "upload": {
+    "skipFailedAutodetection": true,
+    "type": "js",
+    "files": [
+      {
+        "pattern": "../translations/*.js",
+        "excludes": [
+          "../translations/it.js",
+          "../translations/de.js",
+          "../translations/fr.js",
+          "../translations/pt.js",
+          "../translations/ru.js",
+          "../translations/es.js",
+          "../translations/zn.js",
+          "../translations/zh.js"
+        ],
+        "lang": "${autodetectLang}"
+      },
+      {
+        "pattern": "../translations/zh.js",
+        "lang": "zh#Hans"
+      }
+    ]
+  },
+  "download": {
+    "files": "downloaded_${lang}.js"
+  }
+}
